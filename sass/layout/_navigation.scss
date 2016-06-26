@@ -18,8 +18,8 @@
 		text-transform: uppercase;
 		&:hover {
 			background: $white;
-			border-color: #2aacc8;
-			color: #2aacc8;
+			border-color: $blue;
+			color: $blue;
 		}
 	}
 	ul {
@@ -34,7 +34,8 @@
 	li:hover ul {
 		display: block;
 		border: 1px solid #e8ebf1;
-		box-shadow: 0 5px 0px 0px #2aacc8;
+		-webkit-box-shadow: 0 5px 0px 0px $blue;
+		box-shadow: 0 5px 0px 0px $blue;
 		a {
 			text-transform: none;
 			font-weight: normal;
@@ -47,17 +48,19 @@
 	}
 	li:hover  > a {
 		background: $white;
-		border-color: #2aacc8;
-		color: #2aacc8;
+		border-color: $blue;
+		color: $blue;
 	}
 	.drop:after {
 		content: "";
 		position: absolute;
-		background: url('../../img/sprite.png') no-repeat 0 0;
+		background: url('../img/sprite.png') no-repeat 0 0;
 		width: 7px;
 		height: 5px;
 		right: 10px;
 		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
 		transform: translateY(-50%);
 		cursor: pointer;
 	}

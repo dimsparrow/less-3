@@ -1,3 +1,11 @@
+.bxslider {
+	position: relative;
+	img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+}
 .bx-wrapper {
 	position: relative;
 	margin: 0 auto;
@@ -8,7 +16,6 @@
 	max-width: 100%;
 	display: block;
 }
-/* PAGER */
 .bx-wrapper .bx-pager {
 	text-align: center;
 	font-size: .85em;
@@ -38,24 +45,6 @@
 .bx-wrapper .bx-pager.bx-default-pager a.active {
 	background: $white;
 }
-/* DIRECTION CONTROLS (NEXT / PREV) */
-// .bx-wrapper .bx-prev {
-// 	left: 10px;
-// 	background: url('../img/controls.png') no-repeat 0 -32px;
-// }
-
-// .bx-wrapper .bx-next {
-// 	right: 10px;
-// 	background: url('../img/controls.png') no-repeat -43px -32px;
-// }
-
-// .bx-wrapper .bx-prev:hover {
-// 	background-position: 0 0;
-// }
-
-// .bx-wrapper .bx-next:hover {
-// 	background-position: -43px 0;
-// }
 .bx-wrapper .bx-controls-direction a {
 	position: absolute;
 	top: 50%;
@@ -66,7 +55,3 @@
 	text-indent: -9999px;
 	z-index: 9999;
 }
-.bx-wrapper .bx-controls-direction a.disabled {
-	display: none;
-}
-
