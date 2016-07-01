@@ -1,15 +1,22 @@
 var Homepage = {
 	init: function(){
+		this.mainSlider();
 		this.bxslider();
 	},
-	bxslider: (function(){
-		$('.bxslider').bxSlider();
-	})
-}
+	mainSlider: function(){
+		$('.multiple-slide').slick({
+
+		});
+	},
+	bxslider: function(){
+		$('.bxslider').bxSlider({
+
+		});
+	}
+};
 
 
 $(window).on('load', function(){
 	Homepage.init();
 });
-
 
