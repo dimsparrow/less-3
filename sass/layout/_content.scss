@@ -280,17 +280,17 @@
 		li {
 			display: inline-block;
 			vertical-align: top;
-			a, span {
-				color: $black;
-				padding: 7px 10px;
-				display: block;
-			}
-			a:hover {
-				background: #81e4ed;
-			}
-			span {
-				background: #81e4ed;
-			}
+		}
+		a, span {
+			color: $black;
+			padding: 7px 10px;
+			display: block;
+		}
+		a:hover {
+			background: #81e4ed;
+		}
+		span {
+			background: #81e4ed;
 		}
 		.first, .last, .prev, .next {
 			background: #e8ebf1;
